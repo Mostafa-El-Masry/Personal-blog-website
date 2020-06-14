@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/* Color 
+background:    FFFFFF;
+Buttons:       #02B7E9;
+Btton Active:  #029FCB;
+font colors:   #2E3D49;
+footer back:   #F1F8FA;
+#fc3
+#f2f2f2
+#1a71b8
+#eee
+#00c6a0
+*/
+
+/* Fonts
+font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Balsamiq Sans', cursive;
+*/
+/*************************************************/
+
+/*************************************************/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #dfe6e9;
+    color: #333;
+    font-size: 16px;
+    font-family: georgia, Times, serif;
+    box-sizing: border-box;
+}
+
+/*************************************************/
+.container {
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    grid-template-rows: 27% 27% 27% 5%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+}
+
+.flx,
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+footer,
+nav,
+h1 {
+    background-color: #333;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2E3D49;
+}
+
+h1 {
+    font-family: arial, sans-serif;
+}
+
+h2,
+h3 {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1 {
+    color: #1a71b8;
+    text-align: center;
+    padding: 1em 0;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 200;
+}
+
+.hed {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+#h3 {
+    font-size: .8em;
+    font-weight: 100;
+    color: #00c6a0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.hed p {
+    font-weight: 400;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+.hed p a {
+    font-family: 'Sriracha', cursive;
+}
+
+footer {
+    width: 25em;
+    height: 25px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2E3D49;
+}
+#bo {
+    background-color: #dfe6e9;
+}
+
+/***********
+                anexampleblogpost.html
+**********************/
+.container2 {
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    grid-template-rows: 95% 5%;
+    justify-content: center;
+    text-align: justify;
+    grid-gap: 1.5em;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.one {
+    order: 1;
+    width: 83%;;
+}
+.two {
+    order: 2;
+    width: 16%;
+}
+.card {
+    height: 18rem;
+    top: 8em;
+    left: 6em;
+    font-size: .7em;
+}
